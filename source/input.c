@@ -7,6 +7,10 @@
 
 #include "input.h"
 
+#ifdef CLASSY_BUILD
+extern const char* get_classy_dir(void);
+#endif
+
 /* The input module fills variables belonging to the structures of
    essentially all other modules. Thus we need to include all the
    headers. New in v3.0: These #include fit better here than in

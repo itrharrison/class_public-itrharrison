@@ -1,0 +1,5 @@
+include python/cclassy.pxd
+include include/*.h
+include external/HyRec2020/*.h
+include external/RecfastCLASS/*.h
+include external/heating/*.h
